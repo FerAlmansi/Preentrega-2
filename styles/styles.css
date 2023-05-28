@@ -68,6 +68,26 @@ body {
 
 /* footer */
 
-footer {
-    background-color: antiquewhite;
+.footer {
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+
+}
+
+.logo-footer img {
+    height: 80px;
+    padding: 5px;
+}
+
+.logo-redes img {
+    height: 50px;
+    padding: 10px;
+
+}
+
+.logo-redes {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
 }
