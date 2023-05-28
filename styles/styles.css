@@ -116,38 +116,12 @@ body {
 
 /* footer */
 
-.footer {
-    background-color: rgba(245, 245, 245, 0.915);
-    width: 100%;
-    grid-area: footer;
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-
-}
-
-.logo-footer img {
-    height: 80px;
-    padding: 5px;
-}
-
-.logo-redes img {
-    height: 50px;
-    padding: 10px;
-}
-
-.logo-redes {
-    display: flex; 
-    flex-wrap: wrap;
-    flex-direction: row; 
-}
-
 footer {
     background-color: #f0f0f0;
     padding: 20px;
     text-align: center;
   }
-  
+
   .footer-container {
     max-width: 960px;
     margin: 0 auto;
