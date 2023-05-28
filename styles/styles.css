@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* CABECERA */
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap; 
+}
+
+header {
+    background-color:antiquewhite; 
+    font-family: Verdana;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row wrap;
+
+
+}
+
+.logo-home {
+    height: 50px
+
+}
+
+ul {
+    list-style-type: none
+    
+}
+
+
+/* titulos */
+
+h1 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    font-family:'Be Vietnam Pro', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Descripcion */
+
+p {
+    font-family: Arial;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+/* footer */
+
+footer {
+    background-color: antiquewhite;
+}
