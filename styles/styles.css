@@ -131,3 +131,13 @@ footer {
 
 
 }
+
+/** TUC **/
+
+#tarjetas-ciudades {
+    display: flex;
+    flex-flow: wrap;
+    padding: 40px;
+    justify-content: center;
+
+}

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <!-- Link a bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
        <!-- Link a CSS -->
        <link rel="stylesheet" href="../styles/styles.css">
         <!-- font-family: 'Be Vietnam Pro', sans-serif;  -->
@@ -16,84 +18,86 @@
 <body>
 
          <!-- Header -->
-         <section>
-            <header>
-                <nav>
-                    <img src="../images/Logo-horizontal.png" alt="Coaliciones Urbanas Transformadoras">
-                    <ul>
-                        <li>
-                            <a href="../index.html"> INICIO </a>
-                        </li>
-                        <li> 
-                            <a href="./TUC.html"> TUC </a>
-                        </li>
-                        <li>
-                            <a href="./alianza.html">CONSORCIO</a>
-                        </li>
-                        <li>
-                            <a href="./Contacto.html">CONTACTO</a>
-                        </li>
-                        <li>
-                            <a href="./Metodologia.html">METODOLOGÍA</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-        </section>
+
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img src="../images/Logo-horizontal.png"  alt="Coaliciones Urbanas Transformadoras" class="logo-home" >
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                  <a class="nav-link" href="/pages/TUC.html">TUC</a>
+              <a class="nav-link" href="/pages/Metodologia.html">Metodología</a>
+              <a class="nav-link" href="/pages/Contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     
         <!-- CUERPO -->
     <h2>CONOCÉ LOS PROYECTOS EN CADA CIUDAD</h2>
         <!-- ACÁ VOY A AGREGAR CARROUSEL CUANDO SEPA COMO -->
-            <img src="" alt="">
             <p>El proyecto coaliciones urbanas transformadoras se lleva a cabo en 5 ciudades de Latinoamérica, cada una con sus características particulares. Conocé en detalle ciudad por ciudad en que consiste esta iniciativa:</p>
         <!-- listado de ciudades, la idea es que en el final redirija cada uno a su propia página -->
-            <section>
-                <ul>
-                    <li>
-                        <img src="../images/Buenos-aires.jpg" alt="">
-                        <a href="">Buenos Aires</a>
-                </li>
-                <li>
-                    <img src="../images/Leon.jpg" alt="">
-                    <a href="">León</a>
-            </li>
-                 <li>
-                <img src="../images/Naucalpan.jpg" alt="">
-                <a href="">Naucalpán</a>
-            </li>
-                 <li>
-            <img src="../images/Recife.jpg" alt="">
-            <a href="">Recife</a>
-            </li>
-                <li>
-        <img src="../images/Teresina.jpg" alt="">
-        <a href="">Teresina</a>
-            </li>
-                </ul>
+   
+        <section id="tarjetas-ciudades">
+        
+        <div class="card" style="width: 18rem;">
+            <img src="/images/Buenos-aires.jpg" class="card-img-top" alt="Foto aérea Obelisco">
+            <div class="card-body">
+              <h5 class="card-title">Ciudad de Buenos Aires</h5>
+              <a href="#" class="btn btn-primary">Saber más</a>
+            </div>
+          </div>
+          
+          <div class="card" style="width: 18rem;">
+            <img src="/images/Leon.jpg" class="card-img-top" alt="Foto aérea Obelisco">
+            <div class="card-body">
+              <h5 class="card-title">León</h5>
+              <a href="#" class="btn btn-primary">Saber más</a>
+            </div>
+          </div>
 
-            </section>
+          <div class="card" style="width: 18rem;">
+            <img src="/images/Naucalpan.jpg" class="card-img-top" alt="Foto aérea Obelisco">
+            <div class="card-body">
+              <h5 class="card-title">Naucalpan</h5>
+              <a href="#" class="btn btn-primary">Saber más</a>
+            </div>
+          </div>
 
-     <!-- FOOTER -->
-    <section>
-        <Footer> 
-        <nav>
-            <ul>
-                <li> 
-                    <img src="../images/Solo-logotipo.png" alt="Logo TUC">
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/"><img src="../images/facebook.png" alt="Facebook"></a>
-                    
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/"> <img src="../images/Instagram.png" alt="Instagram"></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/home"><img src="../images/twitter.png" alt="Twitter"></a>
-                </li>
-            </ul>
-        </nav>
-        </Footer>
-    </section>
+          <div class="card" style="width: 18rem;">
+            <img src="/images/Teresina.jpg" class="card-img-top" alt="Foto aérea Obelisco">
+            <div class="card-body">
+              <h5 class="card-title">Teresina</h5>
+              <a href="#" class="btn btn-primary">Saber más</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="/images/Recife.jpg" class="card-img-top" alt="Foto aérea Obelisco">
+            <div class="card-body">
+              <h5 class="card-title">Recife</h5>
+              <a href="#" class="btn btn-primary">Saber más</a>
+            </div>
+          </div>
+
+        </section>
+
+            <!-- FOOTER -->
+            <footer>
+                <div class="footer-container">
+                  <div class="social-links">
+                    <a href="/index.html" target="_blank"><img src="../images/Solo-logotipo.png" alt="Logo de redes sociales"></a>
+                        <a href="https://www.facebook.com/"><img src="../images/facebook.png" alt="Facebook" class="logo-redes"></a>          
+                        <a href="https://www.instagram.com/"> <img src="../images/Instagram.png" alt="Instagram" class="logo-redes"></a>
+                        <a href="https://twitter.com/home"><img src="../images/twitter.png" alt="Twitter" class="logo-redes"></a>
+                </div>
+              </footer>
+
+    <!-- Link a JS Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
