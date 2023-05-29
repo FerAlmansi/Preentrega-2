@@ -37,29 +37,39 @@
       </div>
     </nav>
 
-<!--FORMULARIO-->
+
     <section>
     
     <h2>CONTACTO</h2>
 
-      <div id="imagen-contacto">
-        <img src="../images/contacto.jpg" alt="Foto aerea de Barrio 20">
+      <div id="contenedor-contacto">
+        <img src="../images/contacto.jpg" alt="Foto aerea de Barrio 20" id="imagen-contacto">
       </div>
 
-    <form action="">
-        <label for="">
-            <input type="text" placeholder="NOMBRE">
-        </label>
-        <label for="">
-            <input type="text" placeholder="EMAIL">
-        </label>
-        <label for=""> 
-            <textarea name="" id="" cols="30" rows="10" placeholder="COMENTARIOS"></textarea>
-        </label>
-            <input type="submit">
-        
-    </form>
-</section>
+      <!--FORMULARIO-->
+
+      <div id="contenedor-formulario">
+      <div class="form-floating mb-3">
+        <input type="nombre" class="form-control" id="floatingInput" placeholder="Nombre">
+        <label for="floatingInput">Nombre</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Correo electrónico</label>
+      </div>
+
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Comentarios</label>
+      </div>
+      </div>
+
+      <div id="boton-enviar">
+      <button type="submit" class="btn btn-primary" id="boton-enviar">Enviar</button>
+      </div>
+
+
 
             <!-- FOOTER -->
             <footer>
