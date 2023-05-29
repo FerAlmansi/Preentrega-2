@@ -70,39 +70,6 @@ body {
     align-self: center;
 }
 
-/* footer */
-
-footer {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
-  }
-
-  .footer-container {
-    max-width: 960px;
-    margin: 0 auto;
-  }
-  
-  .social-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .social-links a {
-    display: inline-block;
-    margin: 0 10px;
-    text-decoration: none;
-    color: #333;
-  }
-  
-  .social-links img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-  }
-  
-
 /** ALIANZA **/
 
 #titulo-alianza {
@@ -164,3 +131,46 @@ footer {
     align-content: center;
     padding-bottom: 30px;
 }
+
+/** Contacto **/
+
+#contenedor-contacto {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center; 
+    align-content: center;
+    padding-bottom: 30px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .social-links img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
