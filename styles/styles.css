@@ -30,8 +30,10 @@ h1 {
 
 h2 {
     font-family:'Be Vietnam Pro', sans-serif;
-    font-size: 2rem;
+    font-size: 300%;
     text-align: center;
+    padding: 30px; 
+    font-weight: bolder;
 }
 
 
@@ -134,10 +136,31 @@ footer {
 
 /** TUC **/
 
+#parrafo-tuc {
+    font-size: 120%;
+}
+
 #tarjetas-ciudades {
     display: flex;
     flex-flow: wrap;
     padding: 40px;
     justify-content: center;
+    justify-content: space-around;
+    
 
+}
+
+/** Metodología **/
+
+#parrafo-metodologia {
+    font-size: 150%;
+    text-align: justify;
+}
+
+#contenedor-imagen {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 30px;
 }
