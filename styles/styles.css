@@ -146,10 +146,6 @@ body {
     padding-bottom: 30px;
 }
 
-#contenedor-formulario {
-
-
-}
 
 #boton-enviar {
     border-bottom: 30px solid antiquewhite;
@@ -157,6 +153,42 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  
+  form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+
 
 
 /* footer */
