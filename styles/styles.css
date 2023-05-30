@@ -18,7 +18,7 @@
 /* titulos */
 
 h1 {
-    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 300%;
     padding: 25px;
     display: flex;
@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-    font-family:'Be Vietnam Pro', sans-serif;
+    font-family:'Poppins', sans-serif;
     font-size: 300%;
     text-align: center;
     padding: 30px; 
@@ -40,7 +40,7 @@ h2 {
 /* Descripcion */
 
 p {
-    font-family: Arial;
+    font-family: 'Poppins', sans-serif;
     font-size: 200%;
     padding: 20px;
     display: flex;
@@ -93,7 +93,7 @@ body {
 
 .col p {
     font-size: 100%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     align-content: center;
     justify-content: center;
