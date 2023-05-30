@@ -146,12 +146,8 @@ body {
     padding-bottom: 30px;
 }
 
-#contenedor-formulario {
-
-
-}
-
 #boton-enviar {
+    border-top: 30px solid antiquewhite;
     border-bottom: 30px solid antiquewhite;
     display: flex;
     justify-content: center;
