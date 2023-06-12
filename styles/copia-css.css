@@ -1,0 +1,188 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* CABECERA */
+
+
+.logo-home {
+    height: 50px;
+
+}
+
+
+/* titulos */
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 300%;
+    padding: 25px;
+    display: flex;
+    flex-flow: wrap;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family:'Poppins', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    padding: 30px; 
+    font-weight: bolder;
+}
+
+
+/* Descripcion */
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 200%;
+    padding: 20px;
+    display: flex;
+    flex-flow: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.imagenes-incio {
+    width: 100%;
+}
+
+.parrafos-index {
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+/** ALIANZA **/
+
+#titulo-alianza {
+    font-size: 300%;
+    padding: 50px;
+    font-weight:bolder
+}
+
+.container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.logos-instituciones {
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+
+}
+
+.col p {
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+
+}
+
+/** TUC **/
+
+#parrafo-tuc {
+    font-size: 120%;
+}
+
+#tarjetas-ciudades {
+    display: flex;
+    flex-flow: wrap;
+    padding: 40px;
+    justify-content: center;
+    justify-content: space-around;
+    
+
+}
+
+/** Metodología **/
+
+#parrafo-metodologia {
+    font-size: 150%;
+    text-align: justify;
+}
+
+#contenedor-imagen {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 30px;
+}
+
+/** Contacto **/
+
+#imagen-contacto {
+    width: 70%;
+}
+
+#contenedor-contacto {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 30px;
+}
+
+#boton-enviar {
+    border-top: 30px solid antiquewhite;
+    border-bottom: 30px solid antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .social-links img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
