@@ -1,28 +1,17 @@
 // base
-@import './layout/reset';
+@import './base/reset';
+@import './base/fonts';
 
-//header
+//layout
 @import './layout/header';
-
-//index
 @import './layout/index'; 
-
-//alianza
 @import './layout/alianza';
-
-//metodologia
 @import './layout/metodologia'; 
-
-//TUC
 @import './layout/tuc'; 
-
-//contacto
 @import './layout/contacto';
-
-//footer
 @import './layout/footer'; 
 
-
+//components
 
 
 
