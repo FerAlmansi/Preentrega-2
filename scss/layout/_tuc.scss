@@ -1,0 +1,16 @@
+/** TUC **/
+
+section {
+    #parrafo-tuc {
+        font-size: 120%;
+    }
+}
+
+#tarjetas-ciudades {
+    display: flex;
+    flex-flow: wrap;
+    padding: 40px;
+    justify-content: center;
+    justify-content: space-around;
+    
+}

@@ -84,6 +84,52 @@ div.container .col p {
   justify-content: center;
 }
 
+/** METODOLOGÍA **/
+section #contenedor-imagen {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 30px;
+}
+section #parrafo-metodologia {
+  font-size: 150%;
+  text-align: justify;
+  padding: 5%;
+}
+
+/** TUC **/
+section #parrafo-tuc {
+  font-size: 120%;
+}
+
+#tarjetas-ciudades {
+  display: flex;
+  flex-flow: wrap;
+  padding: 40px;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+/** CONTACTO **/
+section #imagen-contacto {
+  width: 70%;
+}
+section #contenedor-contacto {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 30px;
+}
+section #boton-enviar {
+  border-top: 30px solid antiquewhite;
+  border-bottom: 30px solid antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /** FOOTER **/
 footer {
   background-color: #f0f0f0;

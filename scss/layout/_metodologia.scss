@@ -1,0 +1,19 @@
+/** METODOLOGÍA **/
+
+section {
+
+#contenedor-imagen {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 30px;
+}
+
+#parrafo-metodologia {
+    font-size: 150%;
+    text-align: justify;
+    padding: 5%;
+}
+
+}

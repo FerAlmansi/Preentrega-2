@@ -1,0 +1,23 @@
+/** CONTACTO **/
+
+section {
+#imagen-contacto {
+    width: 70%;
+}
+
+#contenedor-contacto {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 30px;
+}
+
+#boton-enviar {
+    border-top: 30px solid antiquewhite;
+    border-bottom: 30px solid antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
