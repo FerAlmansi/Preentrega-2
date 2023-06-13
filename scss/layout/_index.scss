@@ -37,13 +37,10 @@ h2 {
     font-weight: bolder;
 }
 
-div {
+div.container {
     .imagenes-inicio {
         width: 100%;
-    }
-}
-
-div {   
+    }   
     .parrafos-index {
         font-size: 100%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -51,6 +48,5 @@ div {
         text-align: center;
         justify-content: center;
         align-self: center;
-    }
+        }
 }
-    

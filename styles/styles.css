@@ -46,11 +46,10 @@ h2 {
   font-weight: bolder;
 }
 
-div .imagenes-inicio {
+div.container .imagenes-inicio {
   width: 100%;
 }
-
-div .parrafos-index {
+div.container .parrafos-index {
   font-size: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
