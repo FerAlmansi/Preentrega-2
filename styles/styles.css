@@ -31,7 +31,7 @@ section .img-fluid {
 }
 section p {
   font-family: "Poppins", sans-serif;
-  font-size: 200%;
+  font-size: 2rem;
   padding: 20px;
   display: flex;
   flex-flow: wrap;
