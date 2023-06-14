@@ -1,5 +1,6 @@
 
 @import '../utilities/variables'; 
+@import '../utilities/mixins';
 
 body {
     background-color: $color-fondo; 
@@ -31,11 +32,7 @@ section {
 }
 
 h2 {
-    font-family: 'Poppins';
-    font-size: 300%;
-    text-align: center;
-    padding: 30px; 
-    font-weight: bolder;
+    @include estilo-h2; 
 }
 
 div.container {

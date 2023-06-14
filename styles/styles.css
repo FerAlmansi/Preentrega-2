@@ -61,12 +61,6 @@ div.container .parrafos-index {
 }
 
 /** ALIANZA **/
-section #titulo-alianza {
-  font-size: 300%;
-  padding: 50px;
-  font-weight: bolder;
-}
-
 div.container {
   display: flex;
   flex-flow: wrap;
@@ -112,7 +106,6 @@ section #parrafo-tuc {
   justify-content: space-around;
 }
 
-/** CONTACTO **/
 section #imagen-contacto {
   width: 70%;
 }
