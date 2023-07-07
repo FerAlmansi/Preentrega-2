@@ -1,19 +1,50 @@
-/** ALIANZA **/ 
-
-div.container {
+.main-alianza {
     display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    .logos-instituciones {
-        width: 100%;
-        display: flex;
-        justify-content: space-around    
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .column {
+    flex-basis: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .image {
+    text-align: center;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  /* Separación entre filas */
+  .column:not(:first-child) {
+    margin-top: 20px;
+  }
+  
+  /* Diseño responsive */
+  @media (max-width: 768px) {
+    .column {
+      flex-basis: 100%;
     }
-        .col p {
-            font-size: 100%;
-            font-family: 'Poppins', sans-serif;
-            display: flex;
-            align-content: center;
-            justify-content: center;
-        }
+}
+  @media (max-width: 500px) {
+  .column {
+    flex-basis: 100%;
+  }
 }

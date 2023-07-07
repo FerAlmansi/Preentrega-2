@@ -1,0 +1,30 @@
+  /* Diseño responsive */
+  @media (max-width: 768px) {
+    .column {
+      flex-basis: 100%;
+    }
+    h2 {
+        font-size: 250%  
+    }
+    section #parrafo-metodologia {
+        font-size: 110%
+    }
+    section #parrafo-index{
+        font-size: 150%
+    }
+}
+    @media (max-width: 500px) {
+        .column {
+          flex-basis: 100%;
+        }
+        h2 {
+            font-size: 170%  
+        }
+        section #parrafo-metodologia {
+            font-size: 90%
+        }
+        section #parrafo-index{
+            font-size: 120%
+        }
+}
+
